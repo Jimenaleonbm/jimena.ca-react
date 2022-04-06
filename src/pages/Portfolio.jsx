@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import {Link} from "react-router-dom"
 import PorftfolioItem from "../components/PortfolioItem"
 import portfolioListData from "../assets/data/portfolioList.json"
 
@@ -15,13 +16,15 @@ export default function Portfolio() {
                                 {
                                     cols.map((item) => {
                                         return (
-                                            <PorftfolioItem key={'item' + item.id} item={item} />
+                                            <Link to={item.link}>
+                                                <PorftfolioItem key={'item' + item.id} item={item} />
+                                            </Link>
                                         )
                                     })
                                 }
                             </div>                        
                         )
-                     })}
+                    })}
                 </div>
             </div>
         </main>

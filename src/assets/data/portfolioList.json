@@ -6,19 +6,22 @@
           "id": 1,
           "project": "Lime",
           "type": "Brand Design",
-          "img": "/img/h_lime.jpg"
+          "img": "/img/h_lime.jpg",
+          "link": "/portfolio/lime"
         }, 
         {
           "id": 4,
           "project": "Ocean Animals",
           "type": "Icon Design",
-          "img": "/img/h_ocean.jpg"
+          "img": "/img/h_ocean.jpg",
+          "link": "/portfolio/ocean-animals"
         },
         {
           "id": 7,
           "project": "PSA - Build a Kit",
           "type": "Motion Design",
-          "img": "/img/h_psa.jpg"
+          "img": "/img/h_psa.jpg",
+          "link": "/portfolio/psa"
         }
       ],
       [
@@ -26,25 +29,29 @@
           "id": 2,
           "project": "English Apps",
           "type": "App Design / Development",
-          "img": "/img/h_apps.jpg"
+          "img": "/img/h_apps.jpg",
+          "link": "/portfolio/english-apps"
         }, 
         {
           "id": 5,
           "project": "Covenant Group",
           "type": "Web Design / Development",
-          "img": "/img/h_covenantgroupl.jpg"
+          "img": "/img/h_covenantgroupl.jpg",
+          "link": "/portfolio/covenant"
         },
         {
           "id": 8,
           "project": "Dunkin' Ad",
           "type": "Motion Design",
-          "img": "/img/h_dunkin.jpg"
+          "img": "/img/h_dunkin.jpg",
+          "link": "/portfolio/dunkin"
         },
         {
           "id": 11,
           "project": "Bouncing Ball",
           "type": "Motion Design",
-          "img": "/img/h_ball.jpg"
+          "img": "/img/h_ball.jpg",
+          "link": "/portfolio/bouncing-ball"
         }        
       ],
       [
@@ -52,19 +59,22 @@
           "id": 3,
           "project": "Canadian Museum of Nature",
           "type": "Web Design",
-          "img": "/img/h_nature.jpg"
+          "img": "/img/h_nature.jpg",
+          "link": "/portfolio/nature"
         },     
         {
           "id": 6,
           "project": "Northen Xscape",
           "type": "UX Case Study",
-          "img": "/img/h_northen.jpg"
+          "img": "/img/h_northen.jpg",
+          "link": "/portfolio/northen-xscape"
         },
         {
           "id": 9,
           "project": "F1 - Motion design Package",
           "type": "Motion Design",
-          "img": "/img/h_f1.jpg"
+          "img": "/img/h_f1.jpg",
+          "link": "/portfolio/f1"
         }
       ]
     ]

@@ -1,0 +1,263 @@
+// vars
+$blue: #37a9ff;
+$pink: #EA1B6F;
+$gray: #aaaaaa;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+}
+
+#root {
+  padding: 20px;
+}
+
+.logo {
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+.displayNone {
+  display: none;
+}
+
+.displayBlock {
+  display: block;
+}
+
+/*
+  Lateral Menu
+*/
+aside .mainMenu {
+  list-style: none;
+  padding: 30px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+aside a {
+  color: rgb(62, 62, 62);
+  text-decoration: none;
+  display: block;
+  margin-bottom: 16px;
+  font-size: 18px;
+}
+
+
+aside .name {
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  h2 {
+    color: #535353;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+  }
+  p {
+    font-weight: lighter;
+    font-size: 14px;
+  }
+}
+
+aside {
+  .bottom {
+    padding-bottom: 10px;
+    .social ul {
+      padding: 0;
+      li {
+        display: inline-block;
+        margin-right: 10px;
+        img {
+          width: 25px;
+        }
+      }
+    }
+  }
+  .email {
+    background-color: #F4F4F4;
+    color: #757575;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    padding: 3px 0;
+    margin: 10px 0;
+    position: relative;
+    &:before {
+      content: "";
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: -100%;
+      top: 0;
+      background-color: #F4F4F4;
+    }
+  }
+
+  .copy {
+    color: #C4C4C4;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+}
+
+/*Pages*/
+h2 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #3f3f3f;
+}
+
+.repo {
+  display: none;
+}
+
+/*
+  Portfolio Home
+*/
+.itemPortfolio {
+  margin-bottom: 40px;
+  h2 { 
+    margin-bottom: 5px;
+    font-size: 22px;
+    width: 90%;
+  }
+  span {
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: rgb(78, 78, 78);
+    left: -20px;
+    padding: 0px 20px;
+    display: inline-block;
+    position: relative;
+    align-self: baseline;
+    width: 90%;
+    border-top: 2px solid #EA1B6F;
+    padding-top: 3px;
+  }
+}
+
+@media screen and (min-width: 767px){
+  #root {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 50px;
+    display: flex;
+  }
+
+  .logo {
+    width: 120px;
+    margin: 0;
+  }
+
+  aside {
+    width: 25%;
+    padding-right: 30px;
+  }
+
+  main {
+    width: 75%;
+    padding-left: 30px;
+  }
+
+  aside {
+    min-height: calc(100vh - 50px);
+    position: relative;
+  }
+  
+  aside .mainMenu {
+    margin-top: 30px;
+    display: block;
+  }
+
+  aside .bottom {
+    position: fixed;
+    bottom: 16px;
+    width: 16%;
+  }
+
+  .repo {
+    padding: 0 10px;
+    display: block;
+  }
+
+  .repo h3{
+    color: #acacac;
+    font-size: 16px;
+  }
+  .repo a {
+    opacity: .5;
+    text-decoration: underline;
+  }
+
+  /*Portfolio Home*/
+  .portfolioHome {
+    h1 {
+      margin: 15px;
+      background-color: $blue;
+      padding: 15px 10px;
+      font-size: 24px;
+      color: white;
+      font-weight: 200;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      text-align: center;
+      position: relative;
+      border-radius: 0 0 15px 0;
+      &:before {
+        content: "";
+        width: 100%;
+        height: 100px;
+        background: $blue;
+        position: absolute;
+        top: -100px;
+        left: 0;
+      }
+    }
+    .flexRow{
+      display: flex;
+      justify-content: space-between;
+      .row {
+        flex-basis: calc((100% / 3) - 6px);
+      }
+    }
+
+    .itemPortfolio {
+      padding: 15px;
+      position: relative;
+      cursor: pointer;
+      margin-bottom: 0;
+    }
+    .itemPortfolio-hover {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: calc(100% - 30px);
+      height: calc(100% - 30px);
+      margin: 15px;
+      background-color: rgba(255, 255, 255, 0.8);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 16px 10px;
+      opacity: 0;
+      transition: opacity ease-in .4s;
+    }
+
+    .itemPortfolio:hover .itemPortfolio-hover{
+      opacity: 1;
+    }
+  }
+}

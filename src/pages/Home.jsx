@@ -5,7 +5,7 @@ export default function Home() {
 
             <div className="content">
                 <p>
-                    Hi, this is my home
+                    Hi !
                 </p>
             </div>
         </main>

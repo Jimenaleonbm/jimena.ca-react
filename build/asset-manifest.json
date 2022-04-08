@@ -1,12 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.e0ba20af.css",
-    "main.js": "/static/js/main.5967f0f9.js",
+    "main.css": "/static/css/main.cfb67567.css",
+    "main.js": "/static/js/main.96d1a40e.js",
     "static/media/psa.mp4": "/static/media/psa.eef4d86cf48d15be7685.mp4",
     "static/media/bouncingball.mp4": "/static/media/bouncingball.8d7b3dc9ae10f4dc9e33.mp4",
     "static/media/lime.png": "/static/media/lime.642d56ab21dd9e8c2a1c.png",
+    "static/media/nature.png": "/static/media/nature.26e0b4e42f89719b9cc2.png",
+    "static/media/covenant.png": "/static/media/covenant.c77399140c1b647fbb59.png",
     "static/media/dunkin.mp4": "/static/media/dunkin.fc6623ea86f011f71485.mp4",
     "static/media/f1.mp4": "/static/media/f1.02019ab2b34e9e7b8114.mp4",
+    "static/media/apps.png": "/static/media/apps.94be9b0685464ef4dd62.png",
     "static/media/nx9.png": "/static/media/nx9.982c65fd58df37c097e5.png",
     "static/media/oceanicons.jpg": "/static/media/oceanicons.a3236172bad2cfdc29a5.jpg",
     "static/media/nx3.png": "/static/media/nx3.ac1991d028d50485ce36.png",
@@ -21,12 +24,14 @@
     "static/media/nx10.png": "/static/media/nx10.332b170c243a369af3e7.png",
     "static/media/nx7.png": "/static/media/nx7.ed2be006cfe60381417f.png",
     "static/media/nx1.jpg": "/static/media/nx1.693f56f9bbfafd1094c8.jpg",
+    "static/media/downloadapple.png": "/static/media/downloadapple.17c93f218ca4a01e0837.png",
+    "static/media/downloadgoogle.png": "/static/media/downloadgoogle.5607f1c42d0fcbff3869.png",
     "index.html": "/index.html",
-    "main.e0ba20af.css.map": "/static/css/main.e0ba20af.css.map",
-    "main.5967f0f9.js.map": "/static/js/main.5967f0f9.js.map"
+    "main.cfb67567.css.map": "/static/css/main.cfb67567.css.map",
+    "main.96d1a40e.js.map": "/static/js/main.96d1a40e.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0ba20af.css",
-    "static/js/main.5967f0f9.js"
+    "static/css/main.cfb67567.css",
+    "static/js/main.96d1a40e.js"
   ]
 }

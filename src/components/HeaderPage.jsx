@@ -32,7 +32,7 @@ function HeaderPage() {
              */}
             <li>
                 <NavLink
-                to="/portfolio"
+                to="/"
                 style={({ isActive }) =>
                     isActive ? activeStyle : undefined
                 }

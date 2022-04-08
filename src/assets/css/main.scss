@@ -148,6 +148,19 @@ h2 {
   }
 }
 
+.download {
+    text-align: center;
+    img {
+      width: 200px;
+      display: inline-block;
+      margin: 0 20px;
+      transition: all ease .4s;
+      &:hover {
+        transform: scale(1.1);
+      }
+  }
+}
+
 @media screen and (min-width: 767px){
   #root {
     width: 100%;

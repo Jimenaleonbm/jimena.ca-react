@@ -1,7 +1,9 @@
-export default function EnglishApps() {
+import main from "../../assets/img/covenant.png"
+
+export default function Covenant() {
     return (
-      <main>
-        <h2>Covenant</h2>
-      </main>
+        <main className="portfolioDetail">
+            <img src={main} alt="project information" />
+        </main>
     );
   }

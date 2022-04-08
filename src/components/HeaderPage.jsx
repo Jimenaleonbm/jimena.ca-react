@@ -18,7 +18,8 @@ function HeaderPage() {
         </div>
         <nav>
             <ul className="mainMenu">
-            <li>
+            {/**
+             <li>
                 <NavLink
                 to="/"
                 style={({ isActive }) =>
@@ -28,6 +29,7 @@ function HeaderPage() {
                 Home
                 </NavLink>
             </li>
+             */}
             <li>
                 <NavLink
                 to="/portfolio"
@@ -38,7 +40,8 @@ function HeaderPage() {
                 Portfolio
                 </NavLink>
             </li>
-            <li>
+            {/**
+             <li>
                 <NavLink
                 to="/contact"
                 style={({ isActive }) =>
@@ -48,6 +51,7 @@ function HeaderPage() {
                 Contact
                 </NavLink>
             </li>
+             */}
             <li>
                 <a target="_blank"
                 href="https://firebasestorage.googleapis.com/v0/b/jimenamartin-6725e.appspot.com/o/BriyitJimenaMartin.pdf?alt=media&token=d0c614c8-7bfb-4673-855d-d46fab165db3">

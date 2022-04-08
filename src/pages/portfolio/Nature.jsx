@@ -1,7 +1,9 @@
+import main from "../../assets/img/nature.png"
+
 export default function Nature() {
     return (
-      <main>
-        <h2>Nature here</h2>
-      </main>
+        <main className="portfolioDetail">
+            <img src={main} alt="project information" />
+        </main>
     );
   }

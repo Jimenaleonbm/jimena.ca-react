@@ -29,7 +29,7 @@ export default function App() {
     <BrowserRouter>
       <HeaderPage />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Portfolio />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/portfolio/lime" element={<Lime />} />
         <Route path="/portfolio/ocean-animals" element={<OceanAnimals />} />

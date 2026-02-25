@@ -1,11 +1,11 @@
 export default function Contact() {
     return (
         <main>
-            <h2>Contact</h2>
+            <h1>Contact</h1>
 
-            <div className="content">
+            <section className="content">
                 <p>This is contact, Thank you !</p>
-            </div>
+            </section>
         </main>
     );
 }

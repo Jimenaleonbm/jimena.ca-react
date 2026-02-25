@@ -16,19 +16,20 @@ import hifi2 from "../../assets/img/xscape/nx13.jpg"
 export default function NorthenXscape() {
     return (
         <main className="portfolioDetail">
-            <img src={title} alt="Title" />
-            <img src={overview} alt="overview" />
-            <img src={problem} alt="problem" />
-            <img src={analysis} alt="analysis" />
-            <img src={persona} alt="persona" />
-            <img src={storyboard} alt="storyboard" />
-            <img src={userflow} alt="userflow" />
-            <img src={brand} alt="brand" />
-            <img src={wireframes} alt="wireframes" />
-            <img src={lowfi1} alt="lowfi1" />
-            <img src={lowfi2} alt="lowfi2" />
-            <img src={hifi1} alt="hifi1" />
-            <img src={hifi2} alt="hifi2" />
+            <h1>Northen Xscape - UX Case Study</h1>
+            <img src={title} alt="Title" loading="lazy" />
+            <img src={overview} alt="overview" loading="lazy" />
+            <img src={problem} alt="problem" loading="lazy" />
+            <img src={analysis} alt="analysis" loading="lazy" />
+            <img src={persona} alt="persona" loading="lazy" />
+            <img src={storyboard} alt="storyboard" loading="lazy" />
+            <img src={userflow} alt="userflow" loading="lazy" />
+            <img src={brand} alt="brand" loading="lazy" />
+            <img src={wireframes} alt="wireframes" loading="lazy" />
+            <img src={lowfi1} alt="lowfi1" loading="lazy" />
+            <img src={lowfi2} alt="lowfi2" loading="lazy" />
+            <img src={hifi1} alt="hifi1" loading="lazy" />
+            <img src={hifi2} alt="hifi2" loading="lazy" />
         </main>
     );
   }

@@ -8,28 +8,16 @@ function HeaderPage() {
   };
 
   return (
-    <aside>
+    <header>
         <div>
             <img src="/logo.png" alt="Jimena Martin Logo" className="logo" />
             <div className="name">
-                <h2>Jimena Martin</h2>
+                <div className="name-title">Jimena Martin</div>
                 <p>Front end developer / UI designer</p>
             </div>
         </div>
         <nav>
             <ul className="mainMenu">
-            {/**
-             <li>
-                <NavLink
-                to="/"
-                style={({ isActive }) =>
-                    isActive ? activeStyle : undefined
-                }
-                >
-                Home
-                </NavLink>
-            </li>
-             */}
             <li>
                 <NavLink
                 to="/"
@@ -40,55 +28,39 @@ function HeaderPage() {
                 Portfolio
                 </NavLink>
             </li>
-            {/**
-             <li>
-                <NavLink
-                to="/contact"
-                style={({ isActive }) =>
-                    isActive ? activeStyle : undefined
-                }
-                >
-                Contact
-                </NavLink>
-            </li>
-             */}
-            <li>
-                <a target="_blank"
-                href="https://firebasestorage.googleapis.com/v0/b/jimenamartin-6725e.appspot.com/o/BriyitJimenaMartin.pdf?alt=media&token=d0c614c8-7bfb-4673-855d-d46fab165db3">
-                Resume
-                </a>
-            </li>
             </ul>
         </nav>
         <div className="bottom">
             <div className="social">
             <ul>
                 <li>
-                    <a href="https://www.linkedin.com/in/jimena-martin-leon/" target="_blank">
-                        <img src="/img/linkedin.png" alt="linkedin" />    
+                    <a href="https://www.linkedin.com/in/jimena-martin-leon/" target="_blank" rel="noopener noreferrer" aria-label="Visit Jimena Martin's LinkedIn profile">
+                        <img src="/img/linkedin.png" alt="LinkedIn" />    
                     </a>
                 </li>
                 <li>
-                    <a href="https://github.com/jimenaleom" target="_blank">
-                        <img src="/img/github.png" alt="github" />
+                    <a href="https://github.com/jimenaleom" target="_blank" rel="noopener noreferrer" aria-label="Visit Jimena Martin's GitHub profile">
+                        <img src="/img/github.png" alt="GitHub" />
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.behance.net/jimenaleonbm" target="_blank">
-                        <img src="/img/behance.png" alt="behance" />
+                    <a href="https://www.behance.net/jimenaleonbm" target="_blank" rel="noopener noreferrer" aria-label="Visit Jimena Martin's Behance portfolio">
+                        <img src="/img/behance.png" alt="Behance" />
                     </a>
                 </li>
                 <li>
-                    <a href="mailto:jimenaleonbm@gmail.com">
-                        <img src="/img/email.png" alt="email" />
+                    <a href="mailto:jimenaleonbm@gmail.com" aria-label="Send an email to Jimena Martin">
+                        <img src="/img/email.png" alt="Email" />
                     </a>
                 </li>
             </ul>
             </div>
-            <div className="email">jimenaleonbm@gmail.com</div>
-            <p className="copy">© JimenaMartin 2022</p>
+            <a href="mailto:jimenaleonbm@gmail.com" className="email">
+                jimenaleonbm@gmail.com
+            </a>
+            <p className="copy">© JimenaMartin 2026</p>
         </div>
-    </aside>
+    </header>
   );
 }
 

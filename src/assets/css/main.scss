@@ -39,14 +39,15 @@ body {
 /*
   Lateral Menu
 */
-aside .mainMenu {
+
+header .mainMenu {
   list-style: none;
   padding: 30px 10px;
   display: flex;
   justify-content: space-between;
 }
 
-aside a {
+header a {
   color: rgb(62, 62, 62);
   text-decoration: none;
   display: block;
@@ -55,11 +56,11 @@ aside a {
 }
 
 
-aside .name {
+header .name {
   padding-left: 10px;
   margin-top: 10px;
   margin-bottom: 20px;
-  h2 {
+  h1, .name-title {
     color: #535353;
     font-weight: 600;
     letter-spacing: 1px;
@@ -71,7 +72,7 @@ aside .name {
   }
 }
 
-aside {
+header {
   .bottom {
     padding-bottom: 10px;
     .social ul {
@@ -175,7 +176,7 @@ h2 {
     margin: 0;
   }
 
-  aside {
+  header {
     width: 25%;
     padding-right: 30px;
   }
@@ -185,17 +186,17 @@ h2 {
     padding-left: 30px;
   }
 
-  aside {
+  header {
     min-height: calc(100vh - 50px);
     position: relative;
   }
   
-  aside .mainMenu {
+  header .mainMenu {
     margin-top: 30px;
     display: block;
   }
 
-  aside .bottom {
+  header .bottom {
     position: fixed;
     bottom: 16px;
     width: 16%;
@@ -217,7 +218,7 @@ h2 {
 
   /*Portfolio Home*/
   .portfolioHome {
-    h1 {
+    h2 {
       margin: 15px;
       background-color: $blue;
       padding: 15px 10px;

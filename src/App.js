@@ -8,7 +8,6 @@ import "./assets/css/main.scss"
 import HeaderPage from "./components/HeaderPage";
 
 /*Pages*/
-import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 
